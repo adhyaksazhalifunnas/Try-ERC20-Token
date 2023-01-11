@@ -1,13 +1,17 @@
-# Sample Hardhat Project
+# Try-ERC20-Token
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Trying to follow ERC20 Token tutorial.
+
+Deployed NanaToken (NT) on Goerli Test Network : 
+
+```shell
+0xD1E166b7A558c4D75A6cfF31974211ec7b853FE8
+```
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
+npm i
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+npx hardhat run --network goerli scripts/deploy.js
 ```
